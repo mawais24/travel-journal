@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+  font-family: 'Inter';
+  background-color: #E5E5E5;
+}
+
+#root{
+  padding: 0;
+  text-align: left;
+}
+
+.wrapper{
+  width: 550px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+
+.header{
+  background-color: #F55A5A;
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header p{
+  padding-left: 7px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.travel-journal-list{
+  padding: 30px 40px;
+}
+
+.travel-tile{
+  display: flex;
+  padding: 18px 0;
+  border-bottom: 1px solid #F5F5F5;
+  align-items: center;
+}
+
+.travel-tile:last-child{
+  border-bottom: none;
+}
+
+.tile-img img{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.tile-content{
+  padding-left: 20px;
+}
+
+.tile-content .tile-location{
+  display: flex;
+}
+
+.tile-location svg{
+  color: #F55A5A;
+  padding-right: 4px;
+}
+
+.tile-location .country{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  text-transform: uppercase;
+}
+
+.tile-location a{
+  font-weight: 400;
+  font-size: 10.24px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  padding-left: 12px;
+}
+
+.tile-content h1{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+  margin: 10px 0 25px;
+}
+
+.tile-content h4{
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+  margin: 0;
+  margin-bottom: 13px;
+}
+
+.tile-content p{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 15px;
+  color: #2B283A;
+}
